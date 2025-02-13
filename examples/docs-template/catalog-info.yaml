@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docs-template
+  description: lorem ipsum
+  annotations:
+    github.com/project-slug: arnerossmann software-templates
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: arnerossmann

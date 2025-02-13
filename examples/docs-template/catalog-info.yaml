@@ -4,7 +4,7 @@ metadata:
   name: docs-template
   description: lorem ipsum
   annotations:
-    github.com/project-slug: arnerossmann software-templates
+    github.com/project-slug: arnerossmann/software-templates
     backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation

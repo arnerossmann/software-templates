@@ -8,7 +8,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - innovation
+  status: 
+  
 spec:
   type: documentation
   lifecycle: experimental
   owner: arnerossmann
+  domain: agnostic

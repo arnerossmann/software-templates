@@ -8,8 +8,11 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - innovation
-  status: 
-  
+    - base
+    -
+  technology: 
+    - markdown
+    - azure
 spec:
   type: documentation
   lifecycle: experimental

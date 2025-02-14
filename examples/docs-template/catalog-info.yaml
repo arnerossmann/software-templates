@@ -6,6 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: arnerossmann/software-templates
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - innovation
 spec:
   type: documentation
   lifecycle: experimental

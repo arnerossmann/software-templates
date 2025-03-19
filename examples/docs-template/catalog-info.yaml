@@ -12,8 +12,6 @@ metadata:
   technology: 
     - markdown
     - azure
-  annotations:
-    github.com/project-slug: arnerossmann/software-templates
 spec:
   type: documentation
   lifecycle: experimental

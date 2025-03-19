@@ -17,3 +17,31 @@ spec:
   lifecycle: experimental
   owner: arnerossmann
   domain: agnostic
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-use-case
+  description: |
+    This is our first use case we built on RAISE to demonstrate the capabilities of the platform.
+    We achieved the following goals:
+      1) build with RAISE template
+      2) deployed to RAISE instance in Sweden
+  labels:
+    industry: Automotive
+    valuechain: Research_and_Development
+    subsegment: Research_and_Ideation
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://petstore.swagger.io/
+      title: Gallery
+      icon: Photo
+spec:
+  type: usecase
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  providesApis: [example-use-case]

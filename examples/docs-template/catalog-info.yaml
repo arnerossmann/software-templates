@@ -12,6 +12,8 @@ metadata:
   technology: 
     - markdown
     - azure
+  annotations:
+    github.com/project-slug: arnerossmann/software-templates
 spec:
   type: documentation
   lifecycle: experimental
@@ -39,6 +41,8 @@ metadata:
     - url: https://petstore.swagger.io/
       title: Gallery
       icon: Photo
+  annotations:
+    github.com/project-slug: arnerossmann/software-templates
 spec:
   type: usecase
   lifecycle: experimental

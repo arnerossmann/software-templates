@@ -27,3 +27,27 @@ spec:
   owner: guests
   system: examples
   providesApis: [example-use-case]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-use-case-owners
+  description: Maintainers for contacting
+spec:
+  type: team
+  profile:
+    displayName: Example Use Case Maintainers
+    email: team42@example.com # we need a DL
+    picture: http://de-mucbddemo01.apps.ce.capgemini.com:1414/_static/logo.png
+    parent: capability
+  children: []
+  members: [user1, user2]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: firstname.lastname
+spec:
+  profile:
+    displayName: Firstname Lastname
+    email: firstname.lastname@capgemini.com

@@ -4,44 +4,36 @@ kind: Component
 metadata:
   name: example-use-case
   annotations:
-    github.com/project-slug: arnerossmann/software-templates
+    github.com/project-slug: AI-Agent-Incubator-Month/repo-name
   description: |
-    This is our first use case we built on RAISE to demonstrate the capabilities of the platform.
+    your description
     We achieved the following goals:
-      1) build with RAISE template
-      2) deployed to RAISE instance in Sweden
+      1) goal 1
+      2) goal 2
   labels:
     industry: Automotive
     valuechain: Research_and_Development
     subsegment: Research_and_Ideation
-  links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
-    - url: https://petstore.swagger.io/
-      title: Gallery
-      icon: Photo
 spec:
   type: usecase
   lifecycle: experimental
-  owner: guests
+  owner: example_usecase_owners
   system: examples
-  providesApis: [example-use-case]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: example-use-case-owners
+  name: example_usecase_owners
   description: Maintainers for contacting
 spec:
   type: team
   profile:
     displayName: Example Use Case Maintainers
-    email: team42@example.com # we need a DL
+    email: team42@example.com
     picture: http://de-mucbddemo01.apps.ce.capgemini.com:1414/_static/logo.png
     parent: capability
   children: []
-  members: [user1, user2]
+  members: [firstname.lastname] #see section below
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

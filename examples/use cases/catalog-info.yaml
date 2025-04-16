@@ -18,7 +18,7 @@ metadata:
 spec:
   type: usecase
   lifecycle: experimental
-  owner: example_usecase_owners
+  owner: example-use-case-owners
   system: examples
 ---
 apiVersion: backstage.io/v1alpha1
@@ -30,11 +30,11 @@ spec:
   type: team
   profile:
     displayName: Example Use Case Maintainers
-    email: team42@example.com # we need a DL
+    email: team42@example.com
     picture: http://de-mucbddemo01.apps.ce.capgemini.com:1414/_static/logo.png
     parent: capability
   children: []
-  members: [user1, user2] # see below, refer to metadata.name of the users
+  members: [firstname.lastname] # see below, refer to metadata.name of the users
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

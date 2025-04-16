@@ -24,17 +24,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: example_usecase_owners
+  name: example-use-case-owners
   description: Maintainers for contacting
 spec:
   type: team
   profile:
     displayName: Example Use Case Maintainers
-    email: team42@example.com
+    email: team42@example.com # we need a DL
     picture: http://de-mucbddemo01.apps.ce.capgemini.com:1414/_static/logo.png
     parent: capability
   children: []
-  members: [firstname.lastname] #see section below
+  members: [user1, user2] # see below, refer to metadata.name of the users
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User

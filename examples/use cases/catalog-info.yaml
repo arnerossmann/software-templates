@@ -10,6 +10,7 @@ metadata:
     We achieved the following goals:
       1) goal 1
       2) goal 2
+    ![image](./usecase.png)
   labels:
     industry: Automotive
     valuechain: Research_and_Development

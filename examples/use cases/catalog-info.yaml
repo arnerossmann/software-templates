@@ -44,3 +44,4 @@ spec:
   profile:
     displayName: Firstname Lastname
     email: firstname.lastname@capgemini.com
+  memberOf: [data_engineering]

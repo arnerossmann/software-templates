@@ -1,6 +1,6 @@
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: example-use-case
   annotations:
@@ -10,8 +10,6 @@ metadata:
     We achieved the following goals:
       1) goal 1
       2) goal 2
-  images:
-    - './usecase.png'
   labels:
     industry: Automotive
     valuechain: Research_and_Development
@@ -20,7 +18,6 @@ spec:
   type: usecase
   lifecycle: experimental
   owner: example-use-case-owners
-  system: examples
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
